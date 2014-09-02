@@ -1,0 +1,2 @@
+CREATE USER [emailing] WITHOUT LOGIN
+GO

@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[BONUS]
+(
+[BONUS_ID] [int] NOT NULL,
+[BONUS_NB] [int] NULL,
+[BONUS_TITRE] [nvarchar] (50) COLLATE French_CI_AS NULL,
+[BONUS_VALIDE] [bit] NOT NULL
+) ON [PRIMARY]
+GO

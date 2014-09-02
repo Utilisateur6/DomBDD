@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[Pays]
+(
+[id] [bigint] NOT NULL IDENTITY(1, 1),
+[nom] [nvarchar] (50) COLLATE French_CI_AS NOT NULL
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Pays] ADD CONSTRAINT [PK_Pays_1] PRIMARY KEY CLUSTERED  ([id]) ON [PRIMARY]
+GO
